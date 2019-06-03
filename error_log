@@ -1,0 +1,109 @@
+[14-May-2019 08:54:23 UTC] PHP Warning:  require_once(controller/admin.php): failed to open stream: No such file or directory in /home3/immtec91/public_html/saiadoburaco/includes.php on line 11
+[14-May-2019 08:54:23 UTC] PHP Fatal error:  require_once(): Failed opening required 'controller/admin.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/immtec91/public_html/saiadoburaco/includes.php on line 11
+[14-May-2019 08:54:33 UTC] PHP Warning:  require_once(controller/admin.php): failed to open stream: No such file or directory in /home3/immtec91/public_html/saiadoburaco/includes.php on line 11
+[14-May-2019 08:54:33 UTC] PHP Fatal error:  require_once(): Failed opening required 'controller/admin.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/immtec91/public_html/saiadoburaco/includes.php on line 11
+[14-May-2019 13:56:11 UTC] PHP Fatal error:  Uncaught Error: Class 'Usuario' not found in /home3/immtec91/public_html/saiadoburaco/controller/admin/admin.php:207
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Router.php(200): call_user_func_array(Object(Closure), Array)
+#2 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Slim.php(1210): Slim\Router->dispatch(Object(Slim\Route))
+#3 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#4 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#5 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Slim.php(1159): Slim\Middleware\PrettyExceptions->call()
+#7 /home3/immtec91/public_html/saiadoburaco/index.php(20): Slim\Slim->run()
+#8 {main}
+  thrown in /home3/immtec91/public_html/saiadoburaco/controller/admin/admin.php on line 207
+[14-May-2019 13:57:11 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home3/immtec91/public_html/saiadoburaco/vendor/hcodebr/php-classes/src/Model/Usuario.php on line 124
+[14-May-2019 14:22:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Hcode\Model\Usuario::getPage() in /home3/immtec91/public_html/saiadoburaco/controller/admin/admin-users.php:80
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Router.php(200): call_user_func_array(Object(Closure), Array)
+#2 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Slim.php(1210): Slim\Router->dispatch(Object(Slim\Route))
+#3 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#4 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#5 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Slim.php(1159): Slim\Middleware\PrettyExceptions->call()
+#7 /home3/immtec91/public_html/saiadoburaco/index.php(20): Slim\S in /home3/immtec91/public_html/saiadoburaco/controller/admin/admin-users.php on line 80
+[14-May-2019 14:29:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Hcode\Model\Usuario::getPage() in /home3/immtec91/public_html/saiadoburaco/controller/admin/admin-users.php:80
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Router.php(200): call_user_func_array(Object(Closure), Array)
+#2 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Slim.php(1210): Slim\Router->dispatch(Object(Slim\Route))
+#3 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#4 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#5 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Slim.php(1159): Slim\Middleware\PrettyExceptions->call()
+#7 /home3/immtec91/public_html/saiadoburaco/index.php(20): Slim\S in /home3/immtec91/public_html/saiadoburaco/controller/admin/admin-users.php on line 80
+[14-May-2019 14:29:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Hcode\Model\Usuario::getPage() in /home3/immtec91/public_html/saiadoburaco/controller/admin/admin-users.php:80
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Router.php(200): call_user_func_array(Object(Closure), Array)
+#2 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Slim.php(1210): Slim\Router->dispatch(Object(Slim\Route))
+#3 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#4 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#5 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Slim.php(1159): Slim\Middleware\PrettyExceptions->call()
+#7 /home3/immtec91/public_html/saiadoburaco/index.php(20): Slim\S in /home3/immtec91/public_html/saiadoburaco/controller/admin/admin-users.php on line 80
+[15-May-2019 07:33:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Hcode\Model\Usuario::getPassswordHash() in /home3/immtec91/public_html/saiadoburaco/controller/admin/admin-users.php:160
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Router.php(200): call_user_func_array(Object(Closure), Array)
+#2 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Slim.php(1210): Slim\Router->dispatch(Object(Slim\Route))
+#3 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#4 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#5 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Slim.php(1159): Slim\Middleware\PrettyExceptions->call()
+#7 /home3/immtec91/public_html/saiadoburaco/index.php(2 in /home3/immtec91/public_html/saiadoburaco/controller/admin/admin-users.php on line 160
+[15-May-2019 08:43:34 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Hcode\Config\Paginacao::getPage(), 2 passed in /home3/immtec91/public_html/saiadoburaco/controller/admin/admin-users.php on line 81 and exactly 3 expected in /home3/immtec91/public_html/saiadoburaco/vendor/hcodebr/php-classes/src/Config/Paginacao.php:7
+Stack trace:
+#0 /home3/immtec91/public_html/saiadoburaco/controller/admin/admin-users.php(81): Hcode\Config\Paginacao::getPage(1, 'usuario')
+#1 [internal function]: {closure}()
+#2 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Router.php(200): call_user_func_array(Object(Closure), Array)
+#3 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Slim.php(1210): Slim\Router->dispatch(Object(Slim\Route))
+#4 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#5 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#6 /home3/immtec91/public_html/saiadoburac in /home3/immtec91/public_html/saiadoburaco/vendor/hcodebr/php-classes/src/Config/Paginacao.php on line 7
+[15-May-2019 08:45:32 UTC] PHP Fatal error:  Uncaught Error: Class 'Hcode\Config\Sql' not found in /home3/immtec91/public_html/saiadoburaco/vendor/hcodebr/php-classes/src/Config/Paginacao.php:12
+Stack trace:
+#0 /home3/immtec91/public_html/saiadoburaco/controller/admin/admin-users.php(81): Hcode\Config\Paginacao::getPage(1, 10, 'usuario')
+#1 [internal function]: {closure}()
+#2 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Router.php(200): call_user_func_array(Object(Closure), Array)
+#3 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Slim.php(1210): Slim\Router->dispatch(Object(Slim\Route))
+#4 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#5 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#6 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home3/immtec91/public_html/saiadoburaco/vendor/slim/sl in /home3/immtec91/public_html/saiadoburaco/vendor/hcodebr/php-classes/src/Config/Paginacao.php on line 12
+[15-May-2019 08:46:26 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Hcode\Config\Paginacao::getPageSearch(), 3 passed in /home3/immtec91/public_html/saiadoburaco/controller/admin/admin-users.php on line 77 and exactly 4 expected in /home3/immtec91/public_html/saiadoburaco/vendor/hcodebr/php-classes/src/Config/Paginacao.php:34
+Stack trace:
+#0 /home3/immtec91/public_html/saiadoburaco/controller/admin/admin-users.php(77): Hcode\Config\Paginacao::getPageSearch('ilan', 1, 'usuario')
+#1 [internal function]: {closure}()
+#2 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Router.php(200): call_user_func_array(Object(Closure), Array)
+#3 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Slim.php(1210): Slim\Router->dispatch(Object(Slim\Route))
+#4 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#5 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#6 /home3/immtec91/pu in /home3/immtec91/public_html/saiadoburaco/vendor/hcodebr/php-classes/src/Config/Paginacao.php on line 34
+[15-May-2019 08:57:40 UTC] PHP Fatal error:  Uncaught Error: Class 'Usuario' not found in /home3/immtec91/public_html/saiadoburaco/controller/admin/admin-cliente.php:8
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Router.php(200): call_user_func_array(Object(Closure), Array)
+#2 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Slim.php(1210): Slim\Router->dispatch(Object(Slim\Route))
+#3 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#4 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#5 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Slim.php(1159): Slim\Middleware\PrettyExceptions->call()
+#7 /home3/immtec91/public_html/saiadoburaco/index.php(20): Slim\Slim->run()
+#8 {main}
+  thrown in /home3/immtec91/public_html/saiadoburaco/controller/admin/admin-cliente.php on line 8
+[15-May-2019 08:58:28 UTC] PHP Fatal error:  Uncaught Error: Class 'Paginacao' not found in /home3/immtec91/public_html/saiadoburaco/controller/admin/admin-cliente.php:17
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Router.php(200): call_user_func_array(Object(Closure), Array)
+#2 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Slim.php(1210): Slim\Router->dispatch(Object(Slim\Route))
+#3 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#4 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#5 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /home3/immtec91/public_html/saiadoburaco/vendor/slim/slim/Slim/Slim.php(1159): Slim\Middleware\PrettyExceptions->call()
+#7 /home3/immtec91/public_html/saiadoburaco/index.php(20): Slim\Slim->run()
+#8 {main}
+  thr in /home3/immtec91/public_html/saiadoburaco/controller/admin/admin-cliente.php on line 17

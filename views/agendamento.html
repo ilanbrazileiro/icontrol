@@ -1,0 +1,106 @@
+ 
+<div class="product-big-title-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="product-bit-title text-center">
+                    <h2>Agendamento</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="single-product-area">
+    <div class="zigzag-bottom"></div>
+    <div class="container">
+        <div class="row">                
+             <div class="col-md-12">
+                <form id="register-form-wrap" action="/agendamento" class="register" method="post">
+                    <h2>Agendar Consulta</h2>
+
+                    <p class="form-row form-row-first">
+                        <label for="nome">Escolha a Especialidade Desejada <span class="required">*</span>
+                        </label>
+                        <select name="especialidade">
+                            <option>---</option>
+                        </select>
+                    </p>
+
+                    <p class="form-row form-row-first">
+                        <label for="email">Escolha o Médico Desejado<span class="required">*</span>
+                        </label>
+                        <select name="especialidade">
+                            <option>---</option>
+                        </select>
+                    </p>
+                    <p class="form-row form-row-first">
+                        <label for="phone">Dia Desejado
+                        </label>
+                        <select name="especialidade">
+                            <option>---</option>
+                        </select>
+                    </p>
+                    <p class="form-row form-row-last">
+                        <label for="senha">Horarios Disponiveis <span class="required">*</span>
+                        </label>
+                        <select name="especialidade">
+                            <option>---</option>
+                        </select>
+                    </p>
+                    
+                    <div class="clear"></div>
+
+                    <p class="form-row">
+                        <input type="submit" value="Agendar Consulta" name="agendamento" class="button">
+                    </p>
+
+                    <div class="clear"></div>
+                </form>               
+            </div>
+        </div>
+        <!-- Area Consultas Agendadas -->
+        <div class="row">                
+             <div class="col-md-12">
+                <form id="register-form-wrap" action="/agendamento" class="register" method="post">
+                    <h2>Consultas Agendadas</h2>
+                    <table class="table table-striped">
+                       <thead>
+                          <tr>
+                            <th style="width: 10px">#</th>
+                            <th>Especialista</th>
+                            <th>Data</th>
+                            <th>Hora</th>
+                            <th>Status</th>
+                            <th style="width: 200px">Operação</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                      
+                          <tr>
+                            <td>1</td>
+                            <td>Médico Exemplo</td>
+                            <td>30/01/2019</td>
+                            <td>12:40</td>
+                            <td>Concluida</td>
+                            <td>
+                                 <a href="/agendamento/id_consulta/reagendar" class="btn btn-primary btn-xs"> Reagendar</a>
+                                <a href="/agendamento/id_consulta/cancelar" onclick="return confirm('Deseja realmente cancelar sua consulta?')" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i> Cancelar</a>
+                            </td>
+                          </tr>
+                        </tbody>
+                    </table>
+                    <div class="clear"></div>
+                </form>               
+            </div>
+        </div>
+
+        <!-- Area Chamada para Ação -->
+        <div class="row">                
+             <div class="col-md-12">
+                    <h2>Agende também pelos telefones: 99 9999-9999 / 99 9999-9999</h2>
+                    <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+</div>
